@@ -1,0 +1,25 @@
+cars:
+  count: 150
+  arrival_time_min: 1ms
+  arrival_time_max: 2ms
+stations:
+  gas:
+    count: 2
+    serve_time_min: 2ms
+    serve_time_max: 5ms
+  diesel:
+    count: 2
+    serve_time_min: 3ms
+    serve_time_max: 6ms
+  lpg:
+    count: 1
+    serve_time_min: 4ms
+    serve_time_max: 7ms
+  electric:
+    count: 1
+    serve_time_min: 5ms
+    serve_time_max: 10ms
+registers:
+   count: 2
+   handle_time_min: 1ms
+   handle_time_max: 3ms
